@@ -51,18 +51,25 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  background-image: url('./images/Combined\ Shape.png');
-  background-repeat: no-repeat;
-  background-position: top 5px center;
   background-color: #EFFAFA;
 }
 
+
+.top {
+  width: 100%;
+  background-image: url('./images/bg-header-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 24px;
+  height: 156px;
+  background-color: #5CA5A5;
+}
 
 .list {
   display: flex;
   gap: 24px;
   flex-direction: column;
-  margin-top: 237px;
   padding-bottom: 40px;
 }
 
