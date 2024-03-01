@@ -54,6 +54,10 @@ body {
   background-color: #EFFAFA;
 }
 
+.border__left {
+  height: inherit;
+  border-left: 5px solid #5CA5A5;
+}
 
 .top {
   width: 100%;
@@ -79,7 +83,7 @@ body {
   background-color: #FFFFFF;
   border-radius: 5px;
   padding: 32px 35px;
-  box-shadow: 0px 6px 6px rgb(213, 234, 236);
+  box-shadow: 0px 6px 6px #d5eaec;
 }
 
 .firstItem {

@@ -1,7 +1,6 @@
 import jobs from "./main.js";
 
 const listEl = document.querySelector("#listEl");
-// listEl[1].classList.add("firstItem");
 jobs.forEach((item) => {
   const lisItem = document.createElement("li");
   lisItem.classList.add("list__item");
@@ -58,6 +57,7 @@ jobs.forEach((item) => {
   if (item.featured == true) {
     itemTopDesc.textContent = "featured";
     itemTop.appendChild(itemTopDesc);
+    lisItem.classList.add("border__left");
   }
 
   itemCenterTitle.textContent = item.position;
@@ -104,5 +104,3 @@ jobs.forEach((item) => {
 
   listEl.appendChild(lisItem);
 });
-
-console.log(0.2 + 0.1 === 0.3);
